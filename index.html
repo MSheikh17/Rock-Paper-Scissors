@@ -10,8 +10,83 @@
 </head>
 
 <body>
+    <header>
+        <h1>Rock Paper Scisssors</h1>
+    </header>
 
-    <h1>Rock Paper Scisssors</h1>
+    <section>
+        <div id="player-section">
+            <h2>Player</h2>
+            <div class="player">
+                <div class="cards">
+                    <div><img class="rockUser" src="./images/Rock.JPG" alt="Rock"></div>
+                    <div class="rock-btn"><button value="Rock" class="btn">Rock</button></div>
+                </div>
+                <div class="cards">
+                    <div><img class="paperUser" src="./images/Paper.JPG" alt="Paper"></div>
+                    <div class="paper-btn"><button value="Paper" class="btn">Paper</button></div>
+                </div>
+                <div class="cards">
+                    <div><img class="ScissorsUser" src="./images/Scissors.JPG" alt="Scissors"></div>
+                    <div class="scissors-btn"><button value="Scissors" class="btn">Scissors</button></div>
+                </div>
+            </div>
+            <div class="score">
+                Score :
+                <p class="userScore">0</p>
+            </div>
+        </div>
+
+        <div id="Round">
+            <h2 class="rounds">Round</h2>
+            <h3 class="roundNum">0</h3>
+        </div>
+
+        <div id="computer-section">
+            <h2>Computer</h2>
+            <div class="computer">
+                <div class="cards">
+                    <img src="./images/Rock.JPG" class="compRock" alt="Rock">
+                    <div class="rock-btn"><button value="Rock">Rock</button></div>
+                </div>
+                <div class="cards">
+                    <img src="./images/Paper.JPG" class="compPaper" alt="Paper">
+                    <div class="paper-btn"><button value="Paper">Paper</button></div>
+                </div>
+                <div class="cards">
+                    <img src="./images/Scissors.JPG" class="compScissors" alt="Scissors">
+                    <div class="scissors-btn"><button value="Scissors">Scissors</button></div>
+                </div>
+            </div>
+            <div class="score">
+                Score :
+                <p class="computerScore">0</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="section2">
+
+    </div>
+
+    <div class="message">
+
+        <p class="winner">Win or Lose</p>
+    </div>
+
+
+    <div class="reset-btn">
+        <button class="reset">New Game</button>
+    </div>
+
+
+
+    </div>
+
+
+
+
     <script src="script.js"></script>
 </body>
 
